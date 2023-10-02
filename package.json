@@ -1,0 +1,19 @@
+{
+  "name": "booknook-site",
+  "version": "1.0.0",
+  "description": "Pierce Issah\r Allyson West",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "server": "live-server",
+    "compile-sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "Pierce Issah",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  }
+}
