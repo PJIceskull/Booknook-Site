@@ -1,8 +1,12 @@
 # Booknook Site
 
+## Team Members
+
 Pierce Issah
 Allyson West
 
-# Links
+## Links
 
 [Web 4 Link]()
+
+## Role & Contributions
