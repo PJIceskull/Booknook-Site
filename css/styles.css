@@ -20,6 +20,12 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  background-color: burlywood;
+  max-width: 1920vw;
+  min-height: 800px;
+}
+
 nav {
   height: 50px;
   background-color: #000;
