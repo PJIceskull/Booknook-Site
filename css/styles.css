@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Segoe-UI";
+  src: url(../css/fonts/segoeui.ttf);
+}
+@font-face {
+  font-family: "Segoe-UI Bold";
+  src: url(../css/fonts/segoeuib.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -27,15 +35,72 @@ p {
 }
 
 nav {
-  height: 50px;
-  background-color: #000;
+  height: 108px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border-bottom: 1px solid #000000;
+  font-size: 16px;
+  font-family: "Segoe-UI";
 }
-nav a {
-  color: #fff;
+nav .logo-container {
+  position: absolute;
+  left: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+nav .logo-container img {
+  max-width: 70px;
+  max-height: 70px;
+}
+nav .nav-search {
+  position: absolute;
+  left: 250px;
+  width: 480px;
+  height: 40px;
+  background-color: #587c83;
+  border: 1px solid #000000;
+  opacity: 0.3;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 15px;
+}
+nav .nav-search img {
+  margin-right: 8px;
+  max-width: 20px;
+  max-height: 20px;
+}
+nav .nav-links {
+  position: absolute;
+  right: 10px;
+  height: 43px;
+  width: 620px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .nav-links a {
+  color: #000000;
   text-decoration: none;
+}
+nav .nav-links .a-active {
+  font-family: "Segoe-UI Bold";
+}
+nav .nav-links .nav-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav-links .nav-icon-container a {
+  padding-right: 10px;
+}
+nav .nav-links .nav-icon-container img {
+  max-width: 40px;
+  max-height: 40px;
+  padding-left: 10px;
 }
 
 footer {
