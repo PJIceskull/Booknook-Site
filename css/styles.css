@@ -238,6 +238,41 @@ footer img {
   justify-content: center;
   align-items: center;
   margin-top: 25px;
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 192px 200px 192px 152px;
+}
+.about-section img {
+  height: 587px;
+  margin-right: 40px;
+}
+.about-section .about-text .about-Heading {
+  margin-bottom: 61px;
+}
+.about-section .about-text .about-Heading h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.about-section .about-text .about-Heading h2 {
+  font-size: 26px;
+  margin-top: 40px;
+}
+.about-section .about-text p {
+  max-width: 1135px;
+  font-size: 16px;
+}
+
+.book-section {
+  background-color: brown;
+  min-height: 300px;
+}
+.book-section h1 {
+  text-transform: uppercase;
+}
+.book-section .item-selection {
+  background-color: azure;
 }
 
 /*# sourceMappingURL=styles.css.map */
