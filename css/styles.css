@@ -126,30 +126,6 @@ footer img {
   height: 50px;
 }
 
-footer {
-  height: 92px;
-  color: #ffffff;
-  background-color: #587c83;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 103px;
-}
-footer a {
-  color: #ffffff;
-  text-decoration: none;
-  margin-right: 38px;
-}
-footer .Social-Icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 225px;
-}
-footer img {
-  height: 50px;
-}
-
 .hero {
   max-height: 550px;
   max-width: 1500px;
@@ -238,6 +214,8 @@ footer img {
   justify-content: center;
   align-items: center;
   margin-top: 25px;
+}
+
 .about-section {
   display: flex;
   align-items: flex-start;
