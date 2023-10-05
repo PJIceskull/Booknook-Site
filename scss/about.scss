@@ -1,0 +1,29 @@
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  //   margin-top: 192px;
+  margin: 192px 200px 192px 152px;
+  img {
+    height: 587px;
+    margin-right: 40px;
+  }
+  .about-text {
+    .about-Heading {
+      margin-bottom: 61px;
+      h1 {
+        font-size: 32px;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-size: 26px;
+        margin-top: 40px;
+      }
+    }
+
+    p {
+      max-width: 1135px;
+      font-size: 16px;
+    }
+  }
+}
