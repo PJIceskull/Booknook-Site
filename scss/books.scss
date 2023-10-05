@@ -1,10 +1,51 @@
 .book-section {
-  background-color: brown;
+  // background-color: brown;
   min-height: 300px;
+  margin: 180px 96px 180px 53px;
   h1 {
     text-transform: uppercase;
+    margin-bottom: 50px;
   }
   .item-selection {
-    background-color: azure;
+    // background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .book-Item {
+    max-width: 500vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    // background-color: aquamarine;
+
+    .book-image {
+      max-width: 225px;
+      img {
+        width: 80%;
+      }
+    }
+
+    .item-Info {
+      max-width: 280px;
+      // margin-left: 15px;
+      .book-description {
+        font-size: 16px;
+      }
+      .book-price {
+        font-family: "Segoe-UI Bold";
+        font-size: 16px;
+        margin-top: 25px;
+      }
+      .add-button {
+        border: 1px solid $black;
+        width: 222px;
+        height: 68px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+      }
+    }
   }
 }

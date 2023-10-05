@@ -243,14 +243,49 @@ footer img {
 }
 
 .book-section {
-  background-color: brown;
   min-height: 300px;
+  margin: 180px 96px 180px 53px;
 }
 .book-section h1 {
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 .book-section .item-selection {
-  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.book-section .book-Item {
+  max-width: 500vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.book-section .book-Item .book-image {
+  max-width: 225px;
+}
+.book-section .book-Item .book-image img {
+  width: 80%;
+}
+.book-section .book-Item .item-Info {
+  max-width: 280px;
+}
+.book-section .book-Item .item-Info .book-description {
+  font-size: 16px;
+}
+.book-section .book-Item .item-Info .book-price {
+  font-family: "Segoe-UI Bold";
+  font-size: 16px;
+  margin-top: 25px;
+}
+.book-section .book-Item .item-Info .add-button {
+  border: 1px solid #000000;
+  width: 222px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
 
 .blog-content-wrapper {
