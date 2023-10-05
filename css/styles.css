@@ -139,7 +139,7 @@ footer img {
   width: 75%;
   background-position: center;
   background-size: cover;
-  background-image: url("/images/home-hero.jpg");
+  background-image: url("../images/home-hero.jpg");
 }
 .hero .hero-image .hero-overlay {
   height: 500px;
