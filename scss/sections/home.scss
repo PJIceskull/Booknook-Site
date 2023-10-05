@@ -1,0 +1,97 @@
+.hero {
+    max-height: 550px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    .hero-image {
+        height: 500px;
+        width: 75%;
+        background-position: center;
+        background-size: cover;
+        background-image: url('/images/home-hero.jpg');
+    
+        .hero-overlay {
+            height: 500px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items:right;
+            background-color: rgba(88, 124, 131,0.5);
+
+            .hero-content {
+              height: 100%;
+              width: 300px;
+              color: $white;
+              display: flex;
+              text-align: left;
+              flex-direction: column;
+              justify-content: center;
+              margin-left: 50px;
+              text-transform: uppercase;
+            
+              h1 {
+                line-height: 0.3;
+                font-family: 'Segoe-UI Bold';
+                font-weight: bold;
+                font-size: 32px;
+              }
+
+              p {
+                margin-top: 25px;
+                font-size: 16px;
+                font-family: 'Segoe-UI';
+              }
+            }
+        }  
+    }
+}
+
+.home-content-wrapper {
+    max-width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    align-items: center;
+
+    .home-content {
+        width: 400px;
+        max-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Segoe-UI';
+        color: $black;
+        text-align: center;
+
+        .book-img img {
+            max-width: 327px;
+            max-height: 491px;
+            padding: 10px;
+        }
+
+        .book-description {
+            width: 400px;
+            font-size: 16px;
+            padding: 10px;
+        }
+        .book-price {
+            font-family: 'Segoe-UI Bold';
+            font-size: 32px;
+            padding: 10px;
+        }
+        .add-button {
+            border: 1px solid $black;
+            width: 222px;
+            height: 68px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+        }
+    }
+}
