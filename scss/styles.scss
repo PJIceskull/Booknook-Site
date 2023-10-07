@@ -1,11 +1,19 @@
+//structure
 @import "variables.scss";
 @import "_fonts.scss";
 @import "structure.scss";
 @import "sections/nav.scss";
 @import "sections/footer.scss";
+
+//pages
 @import "home.scss";
 @import "about.scss";
 @import "books.scss";
 @import "blog.scss";
 @import "cart.scss";
 
+
+//subpages
+@import "subpages/blog-bookclubs.scss";
+@import "subpages/blog-ereading.scss";
+@import "subpages/blog-february.scss";
