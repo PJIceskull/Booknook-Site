@@ -364,6 +364,84 @@ footer img {
   margin-top: 20px;
 }
 
+.bookclub-hero {
+  max-height: 550px;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.bookclub-hero .bookclub-hero-image {
+  height: 500px;
+  width: 75%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/book-club-hero.jpg");
+}
+.bookclub-hero .bookclub-hero-image .bookclub-hero-overlay {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  background-color: rgba(88, 124, 131, 0.5);
+}
+.bookclub-hero .bookclub-hero-image .bookclub-hero-overlay .bookclub-hero-content {
+  height: 100%;
+  width: 1000px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.bookclub-hero .bookclub-hero-image .bookclub-hero-overlay .bookclub-hero-content .bookclub-hero-title {
+  font-family: "Segoe-UI Bold";
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.bookclub-hero .bookclub-hero-image .bookclub-hero-overlay .bookclub-hero-content h2 {
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: "Segoe-UI";
+}
+
+.bookclub-blog-wrapper {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.bookclub-blog-wrapper .blog-content {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.bookclub-blog-wrapper .blog-content .blog-image {
+  width: 600px;
+  height: 350px;
+  margin: 50px 0px;
+  padding: 20px;
+}
+.bookclub-blog-wrapper .blog-content .blog-image img {
+  max-width: 600px;
+  max-height: 350px;
+}
+.bookclub-blog-wrapper .blog-content .blog-description {
+  width: 900px;
+  margin-top: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
 .ereading-hero {
   max-height: 550px;
   max-width: 1500px;
