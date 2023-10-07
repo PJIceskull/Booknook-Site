@@ -366,6 +366,9 @@ footer img {
   text-align: center;
   margin-top: 20px;
 }
+.blog-content-wrapper .blog-content .blog-section .blog-details .blog-button a {
+  text-decoration: none;
+}
 
 .cart-wrapper {
   width: 100%;
