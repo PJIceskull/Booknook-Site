@@ -1,0 +1,89 @@
+.ereading-hero {
+    max-height: 550px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+    .ereading-hero-image {
+      height: 500px;
+      width: 75%;
+      background-position: center;
+      background-size: cover;
+      background-image: url("/images/eread-hero.jpg");
+  
+      .ereading-hero-overlay {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: right;
+        background-color: rgba(88, 124, 131, 0.5);
+  
+        .ereading-hero-content {
+          height: 100%;
+          width: 1000px;
+          color: $white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin: 0 auto;
+  
+          .ereading-hero-title {
+            font-family: "Segoe-UI Bold";
+            font-weight: bold;
+            font-size: 32px;
+            text-transform: uppercase;
+          }
+
+          h2 {
+            margin-top: 25px;
+            font-size: 20px;
+            font-family: "Segoe-UI";
+          }
+  
+        }
+      }
+    }
+  }
+
+
+.ereading-blog-wrapper {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .blog-content {
+        width: 75%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    
+
+        .blog-image {
+            width: 600px;
+            height: 350px;
+            margin: 50px 0px;
+            padding: 20px;
+
+            img {
+                max-width: 600px;
+                max-height: 350px;
+            }
+        }
+
+        .blog-description {
+            width: 700px;
+            margin-top: 50px;
+            margin-right: 50px;
+            padding: 20px;
+        }
+    }
+}
