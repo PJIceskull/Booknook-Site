@@ -364,4 +364,91 @@ footer img {
   margin-top: 20px;
 }
 
+.february-hero {
+  max-height: 550px;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.february-hero .february-hero-image {
+  height: 500px;
+  width: 75%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/february-favorites-hero.jpg");
+}
+.february-hero .february-hero-image .february-hero-overlay {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  background-color: rgba(88, 124, 131, 0.5);
+}
+.february-hero .february-hero-image .february-hero-overlay .february-hero-content {
+  height: 100%;
+  width: 600px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.february-hero .february-hero-image .february-hero-overlay .february-hero-content .february-hero-title {
+  font-family: "Segoe-UI Bold";
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.february-hero .february-hero-image .february-hero-overlay .february-hero-content h1 {
+  font-size: 26px;
+  font-family: "Segoe-UI Bold";
+}
+.february-hero .february-hero-image .february-hero-overlay .february-hero-content p {
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: "Segoe-UI";
+}
+
+.february-blog-wrapper {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+.february-blog-wrapper .february-blog-content {
+  width: 1100px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.february-blog-wrapper .february-blog-content .february-blog-image img {
+  max-width: 250px;
+  max-height: 380px;
+}
+.february-blog-wrapper .february-blog-content .february-blog-description {
+  height: 100%;
+  width: 800px;
+  padding: 10px;
+}
+.february-blog-wrapper .february-blog-content .february-blog-description h3 {
+  font-family: "Segoe-UI";
+  word-spacing: 2px;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+.february-blog-wrapper .february-blog-content .february-blog-description p {
+  font-family: "Segoe-UI";
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=styles.css.map */

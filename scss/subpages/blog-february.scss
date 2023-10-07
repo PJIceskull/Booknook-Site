@@ -1,0 +1,104 @@
+.february-hero {
+    max-height: 550px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+    .february-hero-image {
+      height: 500px;
+      width: 75%;
+      background-position: center;
+      background-size: cover;
+      background-image: url("/images/february-favorites-hero.jpg");
+  
+      .february-hero-overlay {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: right;
+        background-color: rgba(88, 124, 131, 0.5);
+  
+        .february-hero-content {
+          height: 100%;
+          width: 600px;
+          color: $white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin: 0 auto;
+  
+          .february-hero-title {
+            font-family: "Segoe-UI Bold";
+            font-weight: bold;
+            font-size: 32px;
+            text-transform: uppercase;
+          }
+
+          h1 {
+            font-size: 26px;
+            font-family: "Segoe-UI Bold";
+          }
+  
+          p {
+            margin-top: 25px;
+            font-size: 16px;
+            font-family: "Segoe-UI";
+          }
+        }
+      }
+    }
+  }
+
+  .february-blog-wrapper {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    
+
+    .february-blog-content {
+        width: 1100px;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:50px;
+
+        .february-blog-image img {
+            max-width: 250px;
+            max-height: 380px;
+        }
+
+        .february-blog-description {
+            height: 100%;
+            width: 800px;
+            padding: 10px;
+
+            h3 {
+                font-family: 'Segoe-UI';
+                word-spacing: 2px;
+                font-size: 26px;
+                margin-bottom: 50px;
+            }
+            p {
+                //width: 800px;
+                font-family: 'Segoe-UI';
+                font-size: 16px;
+            }
+
+        }
+        
+        
+
+
+
+    }
+  }
