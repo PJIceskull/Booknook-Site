@@ -548,7 +548,7 @@ footer img {
   width: 75%;
   background-position: center;
   background-size: cover;
-  background-image: url("/images/book-club-hero.jpg");
+  background-image: url("images/book-club-hero.jpg");
 }
 .bookclub-hero .bookclub-hero-image .bookclub-hero-overlay {
   height: 500px;
@@ -626,7 +626,7 @@ footer img {
   width: 75%;
   background-position: center;
   background-size: cover;
-  background-image: url("/images/eread-hero.jpg");
+  background-image: url("images/eread-hero.jpg");
 }
 .ereading-hero .ereading-hero-image .ereading-hero-overlay {
   height: 500px;
@@ -704,7 +704,7 @@ footer img {
   width: 75%;
   background-position: center;
   background-size: cover;
-  background-image: url("/images/february-favorites-hero.jpg");
+  background-image: url("images/february-favorites-hero.jpg");
 }
 .february-hero .february-hero-image .february-hero-overlay {
   height: 500px;
