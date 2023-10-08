@@ -535,6 +535,55 @@ footer img {
   color: #000000;
 }
 
+.loginWrapper {
+  font-family: "Segoe-UI";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 12%;
+}
+.loginWrapper form {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.loginWrapper .Login-Heading {
+  margin-bottom: 46px;
+}
+.loginWrapper .Signin-Heading {
+  margin-bottom: 26px;
+}
+.loginWrapper p {
+  margin-bottom: 0;
+}
+.loginWrapper input {
+  margin-bottom: 44px;
+  width: 233px;
+  border-style: none;
+  border-bottom: 1px solid #000000;
+  font-size: 16px;
+  color: #000000;
+}
+.loginWrapper input:focus {
+  outline: none;
+}
+.loginWrapper button {
+  background-color: #587c83;
+  color: #ffffff;
+  width: 170px;
+  height: 45px;
+  border-style: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.loginWrapper button:hover {
+  color: #587c83;
+  background-color: #ffffff;
+  border: 2px solid #587c83;
+  cursor: pointer;
+}
+
 .bookclub-hero {
   max-height: 550px;
   max-width: 1500px;
