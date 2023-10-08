@@ -26,7 +26,6 @@
         width: 300px;
         color: $white;
         display: flex;
-        text-align: left;
         flex-direction: column;
         justify-content: center;
         margin-left: 50px;
@@ -97,6 +96,24 @@
 }
 
 // Max-width for $iPad-width
+@media screen and (max-width: $iPad-width) {
+  .hero {
+    .hero-image {
+      .hero-overlay {
+        .hero-content {
+          h1 {
+            font-size: 12px;
+            line-height: normal;
+            margin-bottom: 0;
+          }
+          p {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 1200px) {
   .home-content-wrapper {
     flex-direction: column;

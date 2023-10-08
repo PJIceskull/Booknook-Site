@@ -283,7 +283,6 @@ footer img {
   width: 300px;
   color: #ffffff;
   display: flex;
-  text-align: left;
   flex-direction: column;
   justify-content: center;
   margin-left: 50px;
@@ -345,6 +344,16 @@ footer img {
   margin-top: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .hero .hero-image .hero-overlay .hero-content h1 {
+    font-size: 12px;
+    line-height: normal;
+    margin-bottom: 0;
+  }
+  .hero .hero-image .hero-overlay .hero-content p {
+    font-size: 8px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .home-content-wrapper {
     flex-direction: column;
