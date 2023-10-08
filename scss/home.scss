@@ -51,7 +51,7 @@
 
 .home-content-wrapper {
   max-width: 100%;
-  height: 900px;
+  min-height: 900px;
   display: flex;
   justify-content: space-evenly;
   margin: 50px;
@@ -92,6 +92,23 @@
       justify-content: center;
       align-items: center;
       margin-top: 25px;
+    }
+  }
+}
+
+// Max-width for $iPad-width
+@media screen and (max-width: 1200px) {
+  .home-content-wrapper {
+    flex-direction: column;
+    .home-content {
+      margin-bottom: 73px;
+      .book-description {
+        // font-size: clamp(11px, 1vw, 16px);
+        font-size: clamp(0.6875rem, 1vw, 1rem);
+      }
+      .book-price {
+        font-size: clamp(0.6875rem, 1vw, 2rem);
+      }
     }
   }
 }

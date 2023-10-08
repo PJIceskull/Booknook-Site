@@ -20,6 +20,23 @@ footer {
     // background-color: red;
   }
   img {
-    height: 50px;
+    height: 44px;
+  }
+}
+@media screen and (max-width: 980px) {
+  footer {
+    // background-color: red;
+    padding-left: 19px;
+    padding-right: 26px;
+    font-size: 11px;
+    a {
+      font-size: 11px;
+    }
+    .Social-Icons {
+      width: 100px;
+    }
+    img {
+      height: 25px;
+    }
   }
 }

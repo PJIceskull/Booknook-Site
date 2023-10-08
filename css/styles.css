@@ -153,9 +153,25 @@ footer .Social-Icons {
   width: 225px;
 }
 footer img {
-  height: 50px;
+  height: 44px;
 }
 
+@media screen and (max-width: 980px) {
+  footer {
+    padding-left: 19px;
+    padding-right: 26px;
+    font-size: 11px;
+  }
+  footer a {
+    font-size: 11px;
+  }
+  footer .Social-Icons {
+    width: 100px;
+  }
+  footer img {
+    height: 25px;
+  }
+}
 #modal {
   position: fixed;
   width: 100%;
@@ -287,7 +303,7 @@ footer img {
 
 .home-content-wrapper {
   max-width: 100%;
-  height: 900px;
+  min-height: 900px;
   display: flex;
   justify-content: space-evenly;
   margin: 50px;
@@ -329,6 +345,20 @@ footer img {
   margin-top: 25px;
 }
 
+@media screen and (max-width: 1200px) {
+  .home-content-wrapper {
+    flex-direction: column;
+  }
+  .home-content-wrapper .home-content {
+    margin-bottom: 73px;
+  }
+  .home-content-wrapper .home-content .book-description {
+    font-size: clamp(0.6875rem, 1vw, 1rem);
+  }
+  .home-content-wrapper .home-content .book-price {
+    font-size: clamp(0.6875rem, 1vw, 2rem);
+  }
+}
 .about-section {
   display: flex;
   align-items: flex-start;
