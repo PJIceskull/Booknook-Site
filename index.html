@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booknook Site</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <!--Font Awesome (for Icons)-->
+    <script
+      src="https://kit.fontawesome.com/d5f6e67548.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- SweetAlerts-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -20,13 +27,17 @@
         <div><img src="images/nav_Icons/search.png" alt="search" /></div>
         <div>Search...</div>
       </div>
+      <!-- Hamburger Nav -->
+      <!--<div class="hamburger-nav">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+      </div> -->
       <div class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#books">Books</a>
         <a href="#blog">Blog</a>
         <div class="nav-icon-container">
-          <a href="#home">Account</a>
+          <a href="#Login">Account</a>
           <img src="images/nav_Icons/user.png" alt="user" />
         </div>
         <div class="nav-icon-container">
@@ -57,8 +68,26 @@
       </div>
     </footer>
 
+    <!-- Modal -->
+    <div id="modal">
+      <div id="modal-click-background" class="close"></div>
+      <div class="modal-content-holder">
+        <div class="close-button close">
+          <i class="fa-solid fa-circle-xmark" style="color: #000000"></i>
+        </div>
+        <h2>Please Login to BookNook to Continue!</h2>
+        <div class="text-input">Username...</div>
+        <div class="text-input">Password...</div>
+        <div class="modal-button-container">
+          <div id="login-button" class="modal-button">Submit</div>
+          <div class="modal-button" class="modal-button-close">Close</div>
+        </div>
+      </div>
+    </div>
+
     <!-- Link to javascript files -->
-    <script src="lib/jquery-3.7.1.min.js"></script>
-    <script src="app/app.js"></script>
+    <script type="module" src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+    <script type="module" src="app/model.js"></script>
   </body>
 </html>

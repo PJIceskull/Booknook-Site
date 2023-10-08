@@ -19,17 +19,78 @@ function changeRoute() {
   }
 }
 
+
+/**** responsive nav 
+
+function initListeners() {
+
+  let displayMobNav = false;
+
+  $(window).on("resize", function (e) {
+    //console.log($(window).width());
+
+    if ($(window).width() >= 768) {
+      $(".nav-links").removeClass("mob-nav");
+      $(".nav-links").addClass("hide");
+      displayMobNav = false;
+    } else {
+      $(".nav-links").removeClass("hide");
+    }
+  });
+
+  $(".hamburger-nav").on("click", function(e) {
+    if (displayMobNav) {
+      $(".nav-links").removeClass("mob-nav");
+     // $(".nav-links").addClass("hide");
+      displayMNav = false;
+    } else {
+      $(".nav-links").addClass("mob-nav");
+      //$(".mob-nav").removeClass("hide");
+
+      displayMobNav = true;
+    }
+  });
+}
+**/
+  
+function initListeners(){}
+
+
 function initURLListener() {
   $(window).on("hashchange", changeRoute);
   changeRoute();
 }
 
-$(document).ready(function () {
-  initURLListener();
-});
 
-function initListeners() {}
+// modal
+function initModalListeners() {
+  $("#Login").on("click", (e) => {
+      e.preventDefault();
+      $("#modal").addClass("active");
+  });
 
+  // Cancel button
+  $(".close").on("click", (e) => {
+      $("#modal").removeClass("active");
+  });
+
+  //submit
+  $("#login-button").on("click", (e) => {
+      Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Login Successful!'
+        });
+      
+        //hide modal on login
+      $("#modal").removeClass("active");
+  });
+  
+}
+
+  
 $(document).ready(function () {
+  initModalListeners();
   initListeners();
+  initURLListener();
 });
