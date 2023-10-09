@@ -3,84 +3,104 @@
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
+    z-index: 99;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 999;
-    visibility: hidden;
+    font-family: "Segoe-UI";
 
     #modal-click-background {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.7);
         z-index: -1;
     }
 
+
     .modal-content-holder {
-            position: relative;
-            min-height: 500px;
-            min-width: 400px;
-            max-width: 60%;
-            margin: 0 auto;
-            padding: 50px;
-            text-align: center;
-            border-radius: 10%;
-            background-color: $white;
-            border-radius: 15%;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-            flex-direction: column;
-        
-        i {
-            margin: 20px 0px;
-        }
-        
+        position: relative;
+        min-height: 500px;
+        min-width: 500px;
+        max-width: 60%;
+        border-radius: 5%;
+        background-color: $white;
+        z-index: 99;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 5px 5px 20px 5px $cadet-blue inset;
 
-        .close-button {
-           position: absolute;
-           top: 10px;
-           right: 30px;
-           height: 50px;
-           width: 50px;
-           cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 10px;
+        }
+        h2 {
+            font-family: "Segoe-UI Bold";
+            font-size: 26px;
         }
 
-        .text-input {
-            background-color: $black;
-            width: 75%;
-            color: $white;
-            margin: 15px;
-            padding: 10px;
-            text-align: left;
-            opacity: 0.7;
-            border-radius: 3px;
-        }
-        .modal-button-container {
+        .modal-text {
+            height: 100%;
+            width: 400px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
-            flex-direction: column;
-            margin-top: 75px;
+            //background-color: orange;
+            
+        }
+        .modal-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
 
-            .modal-button {
-                height: 40px;
-                width: 115px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                margin-top: 15px;
-                border-radius: 10px;
-                font: 10px;
-                background-color: $black;
-                color: $white;
+            
+            a {
+                margin: 0 auto;
+                padding-top: 1px;
+                padding-left: 5px;
+                color:$cadet-blue;
+               
             }
 
+           
+        }
+       
+        .modal-cart {
+            font-size: 12px;
+        }
+        .close-button {
+           position: absolute;
+           height: 20px;
+           width: 20px;
+           top: 0;
+           right: 0;
+           padding: 10px;
+           margin: 25px;
+        }
+
+        .close-cancel {
+            width: 100px;
+            padding: 10px 15px;
+            border-radius: 4px;
+            background-color: $cadet-blue;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        //hover effect for button
+        .close-cancel:hover {
+            background-color: $white;
+            color: $cadet-blue;
+            border: 1px solid $cadet-blue;
+            cursor: pointer;
         }
     }
 }

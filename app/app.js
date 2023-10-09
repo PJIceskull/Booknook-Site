@@ -53,7 +53,19 @@ function initListeners() {
 }
 **/
   
-function initListeners(){}
+
+
+function initListeners() {
+  $("#read-me").on("click", (e) => {
+      $("#modal").toggle();
+  });
+
+  //cancel button
+  $(".close").on("click", (e) => {
+      $("#modal").toggle();
+  });
+
+}
 
 
 function initURLListener() {
@@ -64,7 +76,7 @@ function initURLListener() {
 
 // modal
 function initModalListeners() {
-  $("#Login").on("click", (e) => {
+  $("#login").on("click", (e) => {
       e.preventDefault();
       $("#modal").addClass("active");
   });
@@ -75,7 +87,7 @@ function initModalListeners() {
   });
 
   //submit
-  $("#login-button").on("click", (e) => {
+  $("#close-cancel").on("click", (e) => {
       Swal.fire({
           position: 'center',
           icon: 'success',
