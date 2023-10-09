@@ -32,3 +32,27 @@
     }
   }
 }
+@media screen and (max-width: $iPad-width) {
+  .about-section {
+    margin: 76px 53px 76px 68px;
+    img {
+      height: 343px;
+    }
+    .about-text {
+      text-align: center;
+      .about-Heading {
+        margin-bottom: 33px;
+        h1 {
+          font-size: 12px;
+        }
+        h2 {
+          font-size: 8px;
+        }
+      }
+      p {
+        font-size: 11px;
+        max-width: 355px;
+      }
+    }
+  }
+}

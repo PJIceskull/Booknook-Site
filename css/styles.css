@@ -394,6 +394,30 @@ footer img {
   font-size: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .about-section {
+    margin: 76px 53px 76px 68px;
+  }
+  .about-section img {
+    height: 343px;
+  }
+  .about-section .about-text {
+    text-align: center;
+  }
+  .about-section .about-text .about-Heading {
+    margin-bottom: 33px;
+  }
+  .about-section .about-text .about-Heading h1 {
+    font-size: 12px;
+  }
+  .about-section .about-text .about-Heading h2 {
+    font-size: 8px;
+  }
+  .about-section .about-text p {
+    font-size: 11px;
+    max-width: 355px;
+  }
+}
 .book-section {
   min-height: 300px;
   margin: 180px 96px 180px 53px;
