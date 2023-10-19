@@ -119,12 +119,51 @@
     flex-direction: column;
     .home-content {
       margin-bottom: 73px;
+
       .book-description {
         // font-size: clamp(11px, 1vw, 16px);
-        font-size: clamp(0.6875rem, 1vw, 1rem);
+        // font-size: clamp(0.6875rem, 1vw, 1rem);
+        font-size: 16px;
       }
       .book-price {
-        font-size: clamp(0.6875rem, 1vw, 2rem);
+        // font-size: clamp(0.6875rem, 1vw, 2rem);
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hero {
+    max-height: 200px;
+    .hero-image {
+      height: 193px;
+      .hero-overlay {
+        height: 100%;
+      }
+    }
+  }
+  .home-content-wrapper {
+    margin: 60px;
+    margin-bottom: 0;
+    .home-content {
+      max-width: 300px;
+      .book-img img {
+        // max-width: 70px;
+        max-height: 140px;
+      }
+      .book-description {
+        width: 167px;
+        font-size: 6px; // XD prototype list 6px but looks too small on my screen
+      }
+      .book-price {
+        font-size: 6px;
+      }
+      .add-button {
+        margin-top: 0;
+        width: 114px;
+        height: 30px;
+        font-size: 6px;
       }
     }
   }
