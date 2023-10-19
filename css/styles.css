@@ -248,8 +248,8 @@ footer img {
 #modal .modal-content-holder {
   position: relative;
   min-height: 500px;
-  min-width: 500px;
-  max-width: 60%;
+  width: 80vw;
+  max-width: 500px;
   border-radius: 5%;
   background-color: #ffffff;
   z-index: 99;
@@ -279,10 +279,6 @@ footer img {
   text-align: center;
 }
 #modal .modal-content-holder .modal-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin: 0 auto;
 }
 #modal .modal-content-holder .modal-links a {
@@ -325,7 +321,7 @@ footer img {
 
 .hero {
   max-height: 550px;
-  max-width: 1500px;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -20,8 +20,10 @@
   .modal-content-holder {
     position: relative;
     min-height: 500px;
-    min-width: 500px;
-    max-width: 60%;
+    // min-width: 500px;
+    // max-width: 60%;
+    width: 80vw;
+    max-width: 500px;
     border-radius: 5%;
     background-color: $white;
     z-index: 99;
@@ -54,10 +56,6 @@
       //background-color: orange;
     }
     .modal-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
       margin: 0 auto;
 
       a {
