@@ -70,8 +70,8 @@ nav .nav-search img {
   max-width: 20px;
   max-height: 20px;
 }
-nav .hamburger-nav {
-  margin-right: 20px;
+nav .hamburger-nav:hover {
+  cursor: pointer;
 }
 nav .hide {
   display: none;
@@ -129,6 +129,7 @@ nav .nav-links .nav-icon-container img {
     max-width: 300px;
     height: 23px;
     padding: 0;
+    margin-right: 10px;
   }
   nav .nav-search img {
     margin: 0 9px;
@@ -146,8 +147,9 @@ nav .nav-links .nav-icon-container img {
     color: #ffffff;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   nav .logo-container {
+    width: 130px;
     font-size: 13px;
   }
   nav .logo-container img {
@@ -209,7 +211,7 @@ footer img {
     height: 25px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   footer {
     font-size: 6px;
     padding-left: 17px;
@@ -428,10 +430,44 @@ footer img {
     margin-bottom: 73px;
   }
   .home-content-wrapper .home-content .book-description {
-    font-size: clamp(0.6875rem, 1vw, 1rem);
+    font-size: 16px;
   }
   .home-content-wrapper .home-content .book-price {
-    font-size: clamp(0.6875rem, 1vw, 2rem);
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .hero {
+    max-height: 200px;
+  }
+  .hero .hero-image {
+    height: 193px;
+  }
+  .hero .hero-image .hero-overlay {
+    height: 100%;
+  }
+  .home-content-wrapper {
+    margin: 60px;
+    margin-bottom: 0;
+  }
+  .home-content-wrapper .home-content {
+    max-width: 300px;
+  }
+  .home-content-wrapper .home-content .book-img img {
+    max-height: 140px;
+  }
+  .home-content-wrapper .home-content .book-description {
+    width: 167px;
+    font-size: 6px;
+  }
+  .home-content-wrapper .home-content .book-price {
+    font-size: 6px;
+  }
+  .home-content-wrapper .home-content .add-button {
+    margin-top: 0;
+    width: 114px;
+    height: 30px;
+    font-size: 6px;
   }
 }
 .about-section {

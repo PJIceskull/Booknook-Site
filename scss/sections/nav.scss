@@ -48,7 +48,10 @@ nav {
     // background-color: aqua;
     // height: 40px;
     // width: 40px;
-    margin-right: 20px;
+    // margin-right: 20px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .hide {
@@ -118,6 +121,7 @@ nav {
 @media screen and (max-width: 768px) {
   nav {
     .logo-container {
+      // margin-right: 15px;
       img {
         max-width: 45px;
         max-height: 45px;
@@ -129,6 +133,7 @@ nav {
       max-width: 300px;
       height: 23px;
       padding: 0;
+      margin-right: 10px;
       img {
         margin: 0 9px;
       }
@@ -150,9 +155,10 @@ nav {
     }
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   nav {
     .logo-container {
+      width: 130px;
       font-size: 13px;
       img {
         max-width: 30px;
