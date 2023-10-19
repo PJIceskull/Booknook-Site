@@ -701,6 +701,9 @@ footer img {
 }
 
 @media screen and (max-width: 768px) {
+  .blog-content-wrapper {
+    margin-bottom: 80px;
+  }
   .blog-content-wrapper .blog-content {
     max-width: 552px;
     max-height: 229px;
@@ -716,6 +719,7 @@ footer img {
   }
   .blog-content-wrapper .blog-content .blog-section .blog-details .blog-description {
     font-size: 11px;
+    padding: 0 10px;
   }
   .blog-content-wrapper .blog-content .blog-section .blog-details .blog-button {
     width: 89px;
@@ -723,6 +727,26 @@ footer img {
   }
   .blog-content-wrapper .blog-content .blog-section .blog-details .blog-button a {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .blog-content-wrapper .blog-content .blog-section .blog-details .blog-header {
+    font-size: 6px;
+    padding-bottom: 9px;
+  }
+  .blog-content-wrapper .blog-content .blog-section .blog-details .blog-description {
+    font-size: 6px;
+    max-width: 146px;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+  .blog-content-wrapper .blog-content .blog-section .blog-details .blog-button {
+    width: 80px;
+    height: 22px;
+    margin-top: 0;
+  }
+  .blog-content-wrapper .blog-content .blog-section .blog-details .blog-button a {
+    font-size: 6px;
   }
 }
 .cart-wrapper {
@@ -740,8 +764,6 @@ footer img {
   border-bottom: 1px solid #000000;
 }
 .cart-wrapper .cart-item .cart-content {
-  width: 205px;
-  height: 317px;
   margin: 20px;
 }
 .cart-wrapper .cart-item .cart-content img {
@@ -750,7 +772,7 @@ footer img {
 }
 .cart-wrapper .cart-item .cart-content-detail {
   width: 900px;
-  height: 317px;
+  min-height: 200px;
   margin: 20px;
   padding: 20px;
   font-family: "Segoe-UI";
@@ -777,6 +799,33 @@ footer img {
   color: #000000;
 }
 
+@media screen and (max-width: 768px) {
+  .cart-wrapper {
+    height: 1024px;
+  }
+  .cart-wrapper .cart-item {
+    padding: 0;
+    padding-left: 25px;
+    height: 200px;
+    margin: 25px 0;
+  }
+  .cart-wrapper .cart-item .cart-content img {
+    max-width: 80px;
+    max-height: 115px;
+  }
+  .cart-wrapper .cart-item .cart-content-detail {
+    margin: 0;
+  }
+  .cart-wrapper .cart-item .cart-content-detail h4 {
+    font-size: 12px;
+  }
+  .cart-wrapper .cart-item .cart-content-detail .pricing-availability {
+    font-size: 12px;
+  }
+  .cart-wrapper .cart-item .cart-content-detail .quantity-actions {
+    font-size: 11px;
+  }
+}
 .loginWrapper {
   font-family: "Segoe-UI";
   display: flex;

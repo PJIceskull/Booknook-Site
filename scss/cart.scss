@@ -1,61 +1,87 @@
 .cart-wrapper {
+  width: 100%;
+  height: 1500px;
+
+  .cart-item {
     width: 100%;
-    height: 1500px;
+    height: 550px;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 100px;
+    border-bottom: 1px solid $black;
 
-    .cart-item {
-        width: 100%;
-        height: 550px;
-        margin: 50px 0px;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        padding: 100px;
-        border-bottom: 1px solid $black;
-    
+    .cart-content {
+      //   width: 205px;
+      //   height: 317px;
+      margin: 20px;
 
-        .cart-content {
-            width: 205px;
-            height: 317px;
-            margin: 20px;  
-
-            img {
-                max-width: 205px;
-                max-height: 317px;
-            }
-        }
-
-
-
-        .cart-content-detail {
-            width: 900px;
-            height: 317px;
-            margin: 20px;
-            padding: 20px; 
-            font-family: 'Segoe-UI';
-            font-size: 16px;
-
-            h4 {
-                font-size: 26px;
-            }
-
-            .bold {
-                font-family: 'Segoe-UI Bold';
-            }
-            .pricing-availability {
-                line-height: 10px;
-                padding: 15px 0px;
-            }
-            .quantity-actions {
-                width: 160px;
-                height: 50px;
-                display: flex;
-                align-items: left;
-                justify-content: space-between;
-                a {
-                    color: $black;
-                }
-                
-            }
-        }
+      img {
+        max-width: 205px;
+        max-height: 317px;
+      }
     }
+
+    .cart-content-detail {
+      width: 900px;
+      min-height: 200px;
+      margin: 20px;
+      padding: 20px;
+      font-family: "Segoe-UI";
+      font-size: 16px;
+
+      h4 {
+        font-size: 26px;
+      }
+
+      .bold {
+        font-family: "Segoe-UI Bold";
+      }
+      .pricing-availability {
+        line-height: 10px;
+        padding: 15px 0px;
+      }
+      .quantity-actions {
+        width: 160px;
+        height: 50px;
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        a {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: $iPad-width) {
+  .cart-wrapper {
+    height: 1024px;
+    .cart-item {
+      padding: 0;
+      padding-left: 25px;
+      height: 200px;
+      margin: 25px 0;
+      .cart-content {
+        img {
+          max-width: 80px;
+          max-height: 115px;
+        }
+      }
+      .cart-content-detail {
+        margin: 0;
+
+        h4 {
+          font-size: 12px;
+        }
+        .pricing-availability {
+          font-size: 12px;
+        }
+        .quantity-actions {
+          font-size: 11px;
+        }
+      }
+    }
+  }
 }
