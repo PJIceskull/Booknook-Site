@@ -106,14 +106,19 @@ nav .nav-links .nav-icon-container {
   justify-content: center;
 }
 nav .nav-links .nav-icon-container a {
-  padding-right: 10px;
+  padding-right: clamp(0vw, 0.625vw, 0.7rem);
 }
 nav .nav-links .nav-icon-container img {
   max-width: 40px;
   max-height: 40px;
-  padding-left: 10px;
+  padding-left: clamp(0.3125vw, 0.625vw, 0.63rem);
 }
 
+@media screen and (min-width: 768px) {
+  nav .nav-links {
+    width: 620px;
+  }
+}
 @media screen and (max-width: 768px) {
   nav .logo-container img {
     max-width: 45px;
@@ -139,6 +144,28 @@ nav .nav-links .nav-icon-container img {
   }
   nav .nav-links a {
     color: #ffffff;
+  }
+}
+@media screen and (max-width: 425px) {
+  nav .logo-container {
+    font-size: 13px;
+  }
+  nav .logo-container img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  nav .nav-search {
+    max-width: 142px;
+    height: 16px;
+    font-size: 11px;
+  }
+  nav .nav-search img {
+    max-width: 16px;
+    max-height: 16px;
+  }
+  nav .hamburger-nav {
+    width: 30px;
+    margin-right: 0;
   }
 }
 footer {
@@ -173,12 +200,29 @@ footer img {
   }
   footer a {
     font-size: 11px;
+    margin-right: 1.875vw;
   }
   footer .Social-Icons {
     width: 100px;
   }
   footer img {
     height: 25px;
+  }
+}
+@media screen and (max-width: 425px) {
+  footer {
+    font-size: 6px;
+    padding-left: 17px;
+  }
+  footer a {
+    font-size: 6px;
+    margin-right: 19px;
+  }
+  footer .Social-Icons {
+    width: 75px;
+  }
+  footer img {
+    height: 16px;
   }
 }
 #modal {

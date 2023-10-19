@@ -23,6 +23,7 @@ footer {
     height: 44px;
   }
 }
+
 @media screen and (max-width: 1000px) {
   footer {
     // background-color: red;
@@ -31,12 +32,32 @@ footer {
     font-size: 11px;
     a {
       font-size: 11px;
+      margin-right: 1.875vw;
+      // margin-right: clamp(1.5rem, 1.875vw, 2rem);
     }
     .Social-Icons {
       width: 100px;
     }
     img {
       height: 25px;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  footer {
+    font-size: 6px;
+    padding-left: 17px;
+
+    a {
+      font-size: 6px;
+      margin-right: 19px;
+    }
+
+    .Social-Icons {
+      width: 75px;
+    }
+    img {
+      height: 16px;
     }
   }
 }
