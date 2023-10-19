@@ -30,7 +30,8 @@
         width: 100%;
 
         img {
-          max-width: 200px;
+          max-width: 50%;
+          // max-width: 200px;
           // max-height: 300px;
         }
       }
@@ -102,9 +103,13 @@
     .blog-content {
       max-width: 552px;
       max-height: 229px;
+      margin-bottom: 10px;
       .blog-section {
         .double-covers {
           // margin: 0;
+          img {
+            max-width: 200px;
+          }
         }
         .blog-image {
           // min-height: 100%;
@@ -138,6 +143,10 @@
     .blog-content {
       .blog-section {
         .double-covers {
+          // justify-content: ;
+          img {
+            max-width: 30%;
+          }
         }
         .blog-image {
         }

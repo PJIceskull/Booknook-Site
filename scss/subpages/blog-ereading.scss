@@ -87,10 +87,10 @@
 
 @media screen and (max-width: $iPad-width) {
   .ereading-hero {
-    // margin-top: 50px;
-    margin-left: 102px;
+    margin: 0 auto;
+    margin-top: 47px;
     height: 197px;
-    width: 562px;
+    max-width: 562px;
     .ereading-hero-image {
       height: 100%;
       width: 100%;
@@ -131,6 +131,54 @@
         font-size: 11px;
         margin: 0;
         padding: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 430px) {
+  .ereading-hero {
+    max-width: 310px;
+    height: 119px;
+    .ereading-hero-image {
+      .ereading-hero-overlay {
+        .ereading-hero-content {
+          h1,
+          h2 {
+            font-size: 6px;
+            font-family: "Segoe-UI Bold";
+          }
+          .bookclub-hero-title {
+            font-size: 6px;
+          }
+          h2 {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+  .ereading-blog-wrapper {
+    margin-top: 50px;
+    min-height: 300px;
+    .blog-content {
+      min-height: 100px;
+      .blog-image img {
+        max-width: 114px;
+        max-height: 95px;
+      }
+      .blog-description {
+        margin-left: 5px;
+        h3,
+        p {
+          font-size: 6px;
+        }
+
+        h3 {
+          margin-bottom: 17px;
+        }
+        p {
+          max-width: 219px;
+        }
       }
     }
   }

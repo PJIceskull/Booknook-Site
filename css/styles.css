@@ -647,7 +647,7 @@ footer img {
   width: 100%;
 }
 .blog-content-wrapper .blog-content .blog-section .double-covers img {
-  max-width: 200px;
+  max-width: 50%;
 }
 .blog-content-wrapper .blog-content .blog-section .blog-image {
   max-width: 50%;
@@ -707,6 +707,10 @@ footer img {
   .blog-content-wrapper .blog-content {
     max-width: 552px;
     max-height: 229px;
+    margin-bottom: 10px;
+  }
+  .blog-content-wrapper .blog-content .blog-section .double-covers img {
+    max-width: 200px;
   }
   .blog-content-wrapper .blog-content .blog-section img {
     max-height: 146px;
@@ -730,6 +734,9 @@ footer img {
   }
 }
 @media screen and (max-width: 430px) {
+  .blog-content-wrapper .blog-content .blog-section .double-covers img {
+    max-width: 30%;
+  }
   .blog-content-wrapper .blog-content .blog-section .blog-details .blog-header {
     font-size: 6px;
     padding-bottom: 9px;
@@ -974,9 +981,10 @@ footer img {
 
 @media screen and (max-width: 768px) {
   .bookclub-hero {
-    margin-left: 102px;
+    margin: 0 auto;
+    margin-top: 47px;
     height: 197px;
-    width: 562px;
+    max-width: 562px;
   }
   .bookclub-hero .bookclub-hero-image {
     height: 100%;
@@ -1016,6 +1024,47 @@ footer img {
     font-size: 11px;
     margin: 0;
     padding: 0;
+  }
+}
+@media screen and (max-width: 430px) {
+  .bookclub-hero {
+    max-width: 310px;
+    height: 119px;
+  }
+  .bookclub-hero .bookclub-hero-image .bookclub-hero-overlay .bookclub-hero-content h1,
+  .bookclub-hero .bookclub-hero-image .bookclub-hero-overlay .bookclub-hero-content h2 {
+    font-size: 6px;
+    font-family: "Segoe-UI Bold";
+  }
+  .bookclub-hero .bookclub-hero-image .bookclub-hero-overlay .bookclub-hero-content .bookclub-hero-title {
+    font-size: 6px;
+  }
+  .bookclub-hero .bookclub-hero-image .bookclub-hero-overlay .bookclub-hero-content h2 {
+    margin-top: 0;
+  }
+  .bookclub-blog-wrapper {
+    margin-top: 50px;
+    min-height: 300px;
+  }
+  .bookclub-blog-wrapper .blog-content {
+    min-height: 100px;
+  }
+  .bookclub-blog-wrapper .blog-content .blog-image img {
+    max-width: 114px;
+    max-height: 95px;
+  }
+  .bookclub-blog-wrapper .blog-content .blog-description {
+    margin-left: 5px;
+  }
+  .bookclub-blog-wrapper .blog-content .blog-description h3,
+  .bookclub-blog-wrapper .blog-content .blog-description p {
+    font-size: 6px;
+  }
+  .bookclub-blog-wrapper .blog-content .blog-description h3 {
+    margin-bottom: 17px;
+  }
+  .bookclub-blog-wrapper .blog-content .blog-description p {
+    max-width: 219px;
   }
 }
 .ereading-hero {
@@ -1097,9 +1146,10 @@ footer img {
 
 @media screen and (max-width: 768px) {
   .ereading-hero {
-    margin-left: 102px;
+    margin: 0 auto;
+    margin-top: 47px;
     height: 197px;
-    width: 562px;
+    max-width: 562px;
   }
   .ereading-hero .ereading-hero-image {
     height: 100%;
@@ -1139,6 +1189,47 @@ footer img {
     font-size: 11px;
     margin: 0;
     padding: 0;
+  }
+}
+@media screen and (max-width: 430px) {
+  .ereading-hero {
+    max-width: 310px;
+    height: 119px;
+  }
+  .ereading-hero .ereading-hero-image .ereading-hero-overlay .ereading-hero-content h1,
+  .ereading-hero .ereading-hero-image .ereading-hero-overlay .ereading-hero-content h2 {
+    font-size: 6px;
+    font-family: "Segoe-UI Bold";
+  }
+  .ereading-hero .ereading-hero-image .ereading-hero-overlay .ereading-hero-content .bookclub-hero-title {
+    font-size: 6px;
+  }
+  .ereading-hero .ereading-hero-image .ereading-hero-overlay .ereading-hero-content h2 {
+    margin-top: 0;
+  }
+  .ereading-blog-wrapper {
+    margin-top: 50px;
+    min-height: 300px;
+  }
+  .ereading-blog-wrapper .blog-content {
+    min-height: 100px;
+  }
+  .ereading-blog-wrapper .blog-content .blog-image img {
+    max-width: 114px;
+    max-height: 95px;
+  }
+  .ereading-blog-wrapper .blog-content .blog-description {
+    margin-left: 5px;
+  }
+  .ereading-blog-wrapper .blog-content .blog-description h3,
+  .ereading-blog-wrapper .blog-content .blog-description p {
+    font-size: 6px;
+  }
+  .ereading-blog-wrapper .blog-content .blog-description h3 {
+    margin-bottom: 17px;
+  }
+  .ereading-blog-wrapper .blog-content .blog-description p {
+    max-width: 219px;
   }
 }
 .february-hero {
@@ -1200,7 +1291,6 @@ footer img {
 }
 .february-blog-wrapper .february-blog-content {
   max-width: 1100px;
-  max-height: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1229,9 +1319,10 @@ footer img {
 
 @media screen and (max-width: 768px) {
   .february-hero {
-    margin-left: 102px;
+    margin: 0 auto;
+    margin-top: 47px;
     height: 197px;
-    width: 562px;
+    max-width: 562px;
   }
   .february-hero .february-hero-image {
     height: 100%;
@@ -1253,11 +1344,11 @@ footer img {
     font-size: 8px;
   }
   .february-blog-wrapper {
-    margin-bottom: 0;
+    margin-bottom: 81px;
   }
   .february-blog-wrapper .february-blog-content {
+    min-height: 250px;
     margin-top: 0;
-    margin-bottom: 81px;
   }
   .february-blog-wrapper .february-blog-content .february-blog-image img {
     max-width: 99px;
@@ -1268,9 +1359,46 @@ footer img {
   }
   .february-blog-wrapper .february-blog-content .february-blog-description h3 {
     font-size: 12px;
+    margin-bottom: 38px;
   }
   .february-blog-wrapper .february-blog-content .february-blog-description p {
     font-size: 11px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .february-hero {
+    max-width: 310px;
+    height: 119px;
+  }
+  .february-hero .february-hero-image .february-hero-overlay .february-hero-content h1,
+  .february-hero .february-hero-image .february-hero-overlay .february-hero-content p {
+    font-size: 6px;
+    font-family: "Segoe-UI Bold";
+  }
+  .february-hero .february-hero-image .february-hero-overlay .february-hero-content .february-hero-title {
+    font-size: 6px;
+  }
+  .february-hero .february-hero-image .february-hero-overlay .february-hero-content p {
+    margin-top: 0;
+  }
+  .february-blog-wrapper .february-blog-content {
+    min-height: 100px;
+  }
+  .february-blog-wrapper .february-blog-content .february-blog-image img {
+    max-width: 50px;
+  }
+  .february-blog-wrapper .february-blog-content .february-blog-description {
+    margin-left: 5px;
+  }
+  .february-blog-wrapper .february-blog-content .february-blog-description h3,
+  .february-blog-wrapper .february-blog-content .february-blog-description p {
+    font-size: 6px;
+  }
+  .february-blog-wrapper .february-blog-content .february-blog-description h3 {
+    margin-bottom: 17px;
+  }
+  .february-blog-wrapper .february-blog-content .february-blog-description p {
+    max-width: 219px;
   }
 }
 
