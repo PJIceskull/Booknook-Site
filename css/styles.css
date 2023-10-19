@@ -482,6 +482,7 @@ footer img {
 }
 .about-section .about-text .about-Heading {
   margin-bottom: 61px;
+  font-family: "Segoe UI Bold";
 }
 .about-section .about-text .about-Heading h1 {
   font-size: 32px;
@@ -518,6 +519,29 @@ footer img {
   .about-section .about-text p {
     font-size: 11px;
     max-width: 355px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .about-section {
+    margin: 100px 48px;
+  }
+  .about-section img {
+    height: 132px;
+  }
+  .about-section .about-text .about-Heading {
+    margin-bottom: 10px;
+  }
+  .about-section .about-text .about-Heading h1,
+  .about-section .about-text .about-Heading h2 {
+    font-size: 6px;
+  }
+  .about-section .about-text .about-Heading h2 {
+    margin-top: 16px;
+  }
+  .about-section .about-text p {
+    max-width: 197px;
+    font-size: 6px;
+    font-family: "Segoe UI Bold";
   }
 }
 .book-section {

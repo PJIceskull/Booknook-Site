@@ -11,6 +11,7 @@
   .about-text {
     .about-Heading {
       margin-bottom: 61px;
+      font-family: "Segoe UI Bold";
       //   h1,
       //   h2,
       //   p {
@@ -52,6 +53,31 @@
       p {
         font-size: 11px;
         max-width: 355px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 430px) {
+  .about-section {
+    margin: 100px 48px;
+    img {
+      height: 132px;
+    }
+    .about-text {
+      .about-Heading {
+        margin-bottom: 10px;
+        h1,
+        h2 {
+          font-size: 6px;
+        }
+        h2 {
+          margin-top: 16px;
+        }
+      }
+      p {
+        max-width: 197px;
+        font-size: 6px;
+        font-family: "Segoe UI Bold";
       }
     }
   }
